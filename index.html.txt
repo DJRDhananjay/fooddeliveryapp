@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SwiftBite Delivery</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <header>
+    <h1>🍔 SwiftBite</h1>
+    <nav>
+      <a href="#menu">Menu</a>
+      <a href="#about">About</a>
+      <a href="#order">Order</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Hot Food Delivered Fast ⚡</h2>
+    <p>Your favorite meals, just a click away.</p>
+    <button onclick="orderNow()">Order Now</button>
+  </section>
+
+  <section id="menu" class="menu">
+    <h2>Our Menu</h2>
+
+    <div class="items">
+      <div class="card">🍕 Pizza - ₹199</div>
+      <div class="card">🍔 Burger - ₹99</div>
+      <div class="card">🍜 Noodles - ₹149</div>
+      <div class="card">🥗 Salad - ₹89</div>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <h2>About Us</h2>
+    <p>
+      SwiftBite is a fast food delivery service committed to bringing hot, fresh meals to your doorstep in minutes.
+    </p>
+  </section>
+
+  <footer>
+    <p>© 2026 SwiftBite. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
